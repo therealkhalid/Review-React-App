@@ -11,7 +11,7 @@ function App() {
   const RemoveReview = (id) => {
     setReviews(
       reviews.filter(function (review) {
-        return review.id !=== id;
+        return review.id !== id;
       })
     );
   };
